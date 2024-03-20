@@ -1,0 +1,195 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+figcaption {
+    padding: 5px;
+    font-style: italic;
+}
+
+table {
+    width: 80%;
+    margin: 2% auto;
+    border-bottom: 1px solid black;
+}
+table, th, td {
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+}
+th {
+    background-color: red;
+    color: white;
+    border-bottom: 1px solid white;
+}
+tr {
+    border-bottom: 1px solid gray;
+}
+
+form {
+    width: 80%;
+    margin: 2% auto;
+    border-top: 1px solid gray;
+}
+input {
+    margin-bottom: 5px;
+    padding: 5px;
+}
+fieldset {
+    padding: 10px;
+    margin-top: 2%;
+}
+form button {
+    width: 20%;
+    color: white;
+    padding: 5px;
+    border: none;
+    background-color: rgba(35, 206, 235, 1);
+    margin: 0.98%;
+}
+form button:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+form p{
+    margin: 1% auto;
+}
+
+.main-heading {
+    text-align: center;
+    padding-top: 2%;
+}
+.motto {
+    text-align: center;
+    margin-bottom: 1.75%;
+}
+
+.navigation {
+    background-color: red;
+    padding: 1%;
+}
+
+.navigation li {
+    display: inline;
+    margin-left: 2%;
+    border-left: 1px solid white;
+}
+.navigation a {
+    color: white;
+    margin-left: 5px;
+}
+/*current active link/page*/
+.navigation a.current {
+    color: black;
+    font-weight: bolder;
+}
+
+.banner {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 2%;
+}
+.banner div:nth-child(1){
+    text-align: justify;
+    width: 35%;
+    margin-left: 2%;
+    border-bottom: 1px solid gray;
+}
+.banner h4, .banner p {
+    margin-top: 4vh;
+}
+.banner ul {
+    margin-left: 5%;
+    list-style-type: circle;
+}
+.banner-img {
+    width: 63%;
+    margin-top: -2%;
+    max-height: 500px;
+    clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+}
+.banner img {
+    width: 100%;
+}
+.homepage-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.homepage-content article {
+    width: 10%;
+    margin-left: 4%;
+}
+.homepage-content img {
+    width: 100%;
+    clip-path: circle(50%);
+}
+
+/*|| About*/
+#about-info {
+    width: 90%;
+    text-align: justify;
+    margin: 0 auto;
+}
+#about-info h3{
+    width: 90%;
+    text-align: center;
+    margin: 2%;
+}
+
+/* || Regitration*/
+.register-success {
+    margin-bottom: 2%;
+}
+.register-success p {
+    margin: 2%;
+    width: 50%;
+    padding: 1%;
+    background-color: red;
+    color: white;
+}
+
+/* || facility*/
+#facility-content h3{
+    text-align: center;
+}
+.facility {
+    width: 50%;
+    margin: 2% auto;
+}
+.facility li {
+    padding: 5px;
+}
+.facility button {
+    padding: 5px;
+    margin-left: 5px;
+}
+
+/* || blood group*/
+.single-group button {
+    padding:5px;
+    background-color: rgba(35, 206, 235, 1);
+    color:white;
+    border:none
+}
+.single-group button:hover {
+    background-color:red;
+}
+/* || footer*/
+
+.copyright {
+    background-color: rgba(35, 206, 235, 1);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 2%;
+}
